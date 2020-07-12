@@ -1,0 +1,12 @@
+# npm
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# build output
+/public/build/
+tsconfig.tsbuildinfo
+
+# os
+.DS_Store

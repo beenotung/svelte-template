@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+set -o pipefail
+cd src
+find . -name '*.ts' -type f | sed 's/\.ts/.js/' > .gitignore
